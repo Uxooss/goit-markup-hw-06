@@ -70,9 +70,11 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /**---------------------------------------*/
@@ -172,9 +174,9 @@ img {
 .menu-container {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  right: 0;
+  max-width: 428px;
+  height: 796px;
   padding: 80px 35px 40px 40px;
   background-color: #ffffff;
   z-index: 999;
@@ -247,6 +249,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   .header {
     padding: 16px 0;
   }
@@ -328,6 +334,10 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
   .header {
     padding: 24px 0;
   }
