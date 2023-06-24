@@ -1121,7 +1121,7 @@ img {
   .hero-title {
     font-size: 56px;
     line-height: 0.93;
-    letter-spacing: 0.07em; /* 1.12/16 */
+    letter-spacing: 0.02em;
     max-width: 496px;
   }
 
