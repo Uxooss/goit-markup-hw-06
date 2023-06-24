@@ -1215,6 +1215,12 @@ img {
     margin-bottom: 72px;
   }
 
+  /**======= OUR TEAM =====*/
+
+  .team-container-list {
+    flex-wrap: nowrap;
+  }
+
   /**======= CUSTOMERS =======*/
 
   .customers-section {
@@ -1232,8 +1238,10 @@ img {
   }
 
   .foot-container {
+    flex-wrap: nowrap;
     gap: 80px;
     align-items: center;
+    justify-content: center;
   }
 
   .foot-logo-box {
