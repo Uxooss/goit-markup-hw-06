@@ -492,7 +492,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 428px;
+
   margin: 0 auto;
 }
 
@@ -1100,7 +1100,6 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg-tab.jpg);
-    max-width: 768px;
   }
 
   @media (min-resolution: 192dpi) {
@@ -1132,6 +1131,10 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+  }
+
+  .abt-us-list-title {
+    text-align: left;
   }
 
   .abt-us-list-item {
@@ -1184,9 +1187,11 @@ img {
 
   .foot-logo-box {
     margin: 0;
+    align-items: flex-start;
   }
 
   .foot-social-box {
+    align-items: flex-start;
     margin: 0;
   }
 
@@ -1274,6 +1279,7 @@ img {
 
   .contact {
     line-height: 1.5;
+    font-size: 16px;
   }
 
   /**====== HERO ======*/
@@ -1285,6 +1291,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg.jpg);
+    padding: 188px 0;
     max-width: 1440px;
   }
 
@@ -1304,6 +1311,10 @@ img {
   }
 
   /**======= About Us =====*/
+
+  .abt-us-section {
+    padding: 120px 0;
+  }
 
   .abt-us-list {
     flex-wrap: nowrap;
@@ -1370,6 +1381,10 @@ img {
 
   /**======= OUR TEAM =====*/
 
+  .team-sect {
+    padding: 120px 0;
+  }
+
   .team-container-list {
     flex-wrap: nowrap;
   }
@@ -1392,14 +1407,18 @@ img {
 
   .foot-container {
     flex-wrap: nowrap;
-    gap: 80px;
+    gap: 0;
     align-items: center;
     justify-content: center;
   }
 
   .foot-logo-box {
     align-items: flex-start;
-    margin-right: 40px;
+    margin-right: 120px;
+  }
+
+  .foot-social-box {
+    margin-right: auto;
   }
 
   .subscribe-input {
