@@ -662,6 +662,11 @@ img {
   transition: background-color var(--transition);
 }
 
+.social-item-link:hover,
+.social-item-link:focus {
+  background-color: var(--btn-color_second);
+}
+
 /**======= CUSTOMERS =======*/
 .customers-section {
   padding: 96px 0;
